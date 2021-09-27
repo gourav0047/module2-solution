@@ -1,0 +1,102 @@
+
+    *{
+      box-sizing: border-box;
+      margin-top: 20px
+      
+    }
+    h1{
+      text-align: center;
+      background-color: black;
+      color: white;
+    }
+    section{
+      border: 5px solid blue;
+      background: grey;
+      width: 33%;
+      height: auto;
+      color: black;
+      float: left;
+      margin: 2px;
+      margin-top: 100px;
+      }
+      p{
+        text-align: center;
+      position: relative;
+      top: 0px;
+     
+      margin-top: 0px;
+      width: 70px;
+      }
+    #p1{
+      
+      color: yellow;
+      background-color: black;
+     }
+    
+    #p2{
+      
+      color: red;
+      background-color: green;
+     }
+    
+    #p3{
+      
+      color: white;
+      background-color: black;
+    }
+    @media (min-width: 991px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+    
+  }
+  .col-lg-1 {width: 8.33%;}
+  .col-lg-2 {width: 16.66%;}
+  .col-lg-3 {width: 25.00%;}
+  .col-lg-4 {width: 32.50%;}
+  .col-lg-5 {width: 41.66%;}
+  .col-lg-6 {width: 50.00%;}
+  .col-lg-7 {width: 58.33%;}
+  .col-lg-8 {width: 66.66%;}
+  .col-lg-9 {width: 74.99%;}
+  .col-lg-10 {width: 83.33%;}
+  .col-lg-11 {width: 91.66%;}
+  .col-lg-12 {width: 100%;}
+  }
+  @media (min-width: 768px) and (max-width: 990.99px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+    
+  }
+  .col-md-1 {width: 8.33%;}
+  .col-md-2 {width: 16.66%;}
+  .col-md-3 {width: 25.00%;}
+  .col-md-4 {width: 32.50%;}
+  .col-md-5 {width: 41.66%;}
+  .col-md-6 {width: 49.00%;}
+  .col-md-7 {width: 58.33%;}
+  .col-md-8 {width: 66.66%;}
+  .col-md-9 {width: 74.99%;}
+  .col-md-10 {width: 83.33%;}
+  .col-md-11 {width: 91.66%;}
+  .col-md-12 {width: 100%;}
+}
+@media (max-width: 767.99px) {
+  .col-sh-1, .col-sh-2, .col-sh-3, .col-sh-4, .col-sh-5, .col-sh-6, .col-sh-7, .col-sh-8, .col-sh-9, .col-sh-10, .col-sh-11, .col-sh-12 {
+    float: left;
+   
+  }
+  .col-sh-1 {width: 8.33%;}.col-sh-2 {width: 16.66%;}
+  .col-sh-3 {width: 25.00%;}
+  .col-sh-4 {width: 32.50%;}
+  .col-sh-5 {width: 41.66%;}
+  .col-sh-6 {width: 49.00%;}
+  .col-sh-7 {width: 58.33%;}
+  .col-sh-8 {width: 66.66%;}
+  .col-sh-9 {width: 74.99%;}
+  .col-sh-10 {width: 83.33%;}
+  .col-sh-11 {width: 91.66%;}
+  .col-sh-12 {width: 100%;}
+}
+.sec{
+  width: 100%
+}
